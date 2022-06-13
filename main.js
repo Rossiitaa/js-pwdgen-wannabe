@@ -13,7 +13,7 @@ const userColor = prompt ('Inserisci il tuo colore preferito');
 /* assegniamo alla variabile il valore inserito dall'utente, ovvero il suo colore preferito */
 
 document.getElementById('color-user').innerHTML = userColor;
-document.getElementById('password-user').innerHTML = ('La tua password sarà: ') + (userName) + (userLastName) + (userColor) + (22);
+document.getElementById('password-user').innerHTML = 'La tua password sarà: ' + userName + userLastName + userColor + 22;
 
 console.log (userName, userLastName, userColor);
 
