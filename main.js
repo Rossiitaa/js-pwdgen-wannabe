@@ -1,5 +1,5 @@
 const userName = prompt ('Inserisci il tuo nome')
-document.getElementById('name-user').innerHTML = userName
+ document.getElementById('name-user').innerHTML = userName
 
 const userLastName = prompt ('Inserisci il tuo cognome')
 document.getElementById('lastname-user').innerHTML = userLastName
